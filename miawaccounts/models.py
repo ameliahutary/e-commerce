@@ -12,6 +12,8 @@ class User(AbstractUser):
     address = models.TextField(blank=True, null=True)
     gender = models.CharField(max_length=10, choices=[('Laki-laki', 'Laki-laki'), ('Perempuan', 'Perempuan')], blank=True, null=True)
     email = models.EmailField(max_length=254, unique=True, null=True, blank=True)
+    # Field baru
+    birth_date = models.DateField(blank=True, null=True)
 
     def __str__(self):
         return self.username
