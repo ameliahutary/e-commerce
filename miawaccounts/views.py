@@ -88,6 +88,10 @@ def login_view(request):
 
     return render(request, 'miawaccounts/login.html', {'form': form})
 
+def dashboard_pelanggan(request):
+    # Your logic to handle the pelanggan dashboard
+    return render(request, 'miawaccounts/dashboard_pelanggan.html')
+
 # Signup View
 def signup_view(request):
     if request.method == 'POST':
@@ -102,6 +106,8 @@ def signup_view(request):
     else:
         form = SignUpForm()
     return render(request, 'miawaccounts/register.html', {'form': form})
+
+
 
 # Logout View
 def logout_view(request):
