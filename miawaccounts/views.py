@@ -78,7 +78,7 @@ def login_view(request):
                         return redirect('dashboard_staff')
                     elif hasattr(user, 'is_pelanggan') and user.is_pelanggan:
                         auth_login(request, user)
-                        return redirect('dashboard_pelanggan')
+                        return redirect('home')
                 else:
                     messages.error(request, 'Account is inactive.')
             else:
@@ -91,6 +91,9 @@ def login_view(request):
 def dashboard_pelanggan(request):
     # Your logic to handle the pelanggan dashboard
     return render(request, 'miawaccounts/dashboard_pelanggan.html')
+
+def home_view(request):
+    return render(request, 'miawaccounts/home.html')
 
 # Signup View
 def signup_view(request):

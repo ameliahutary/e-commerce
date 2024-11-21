@@ -10,6 +10,8 @@ urlpatterns = [
     path('register/', views.signup_view, name='register'),
     path('logout/', views.logout_view, name='logout'),
     path('dashboard/', views.dashboard_pelanggan, name='dashboard_pelanggan'),
+    path('home/', views.home_view, name='home'),
+
 
     # Reset Password
     path('password/reset/', CustomPasswordResetView.as_view(), name='password_reset'),
