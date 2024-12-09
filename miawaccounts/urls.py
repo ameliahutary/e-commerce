@@ -11,6 +11,8 @@ urlpatterns = [
     path('logout/', views.logout_view, name='logout'),
     path('dashboard/', views.dashboard_pelanggan, name='dashboard_pelanggan'),
     path('home/', views.home_view, name='home'),
+    path('products/', views.product_list, name='product_list'),
+    path('cart/', views.cart_detail, name='cart_detail'),
 
 
     # Reset Password

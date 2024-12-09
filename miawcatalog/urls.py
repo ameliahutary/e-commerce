@@ -10,4 +10,6 @@ urlpatterns = [
     path('product/<int:product_id>/review/', views.add_review, name='add_review'),
     path('page/<slug:slug>/', views.page_detail, name='page_detail'),
     path('dashboard/admin/user/', views.admin, name='admin_dashboad'),
+    path('products/', views.product_list, name='product_list'),
+    
 ]

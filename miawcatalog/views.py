@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
 from .models import Page, Product, Category, Cart, CartItem, Order, Review
 
+
 def product_list(request):
     categories = Category.objects.all()
     products = Product.objects.all()
@@ -54,3 +55,7 @@ def add_review(request, product_id):
 def page_detail(request, slug):
     page = get_object_or_404(Page, slug=slug, published=True)
     return render(request, 'miawcatalog/page_detail.html', {'page': page})
+
+def product_list(request):
+    products = Product.objects.all()
+    return render(request, 'product_list.html', {'products': products})

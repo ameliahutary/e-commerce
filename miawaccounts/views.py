@@ -116,3 +116,12 @@ def signup_view(request):
 def logout_view(request):
     logout(request)
     return redirect('login')
+
+def product_list(request):
+    products = Product.objects.all()
+    return render(request, 'product_list.html', {'products': products})
+
+def cart_detail(request):
+    # Ambil data keranjang dari session atau model keranjang
+    cart = request.session.get('cart', {})
+    return render(request, 'cart_detail.html', {'cart': cart})
