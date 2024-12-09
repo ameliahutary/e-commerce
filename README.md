@@ -4,10 +4,10 @@ Miawmiaw Store is a paradise for every adorable cat around the world. We’re mo
 
 ## Anggota Kelompok
 
-- **Ameliah Utary** - [GitHub Profile](https://github.com/ameliahutary)
-- **Fakhita Nursyifa** - [GitHub Profile](https://syifaita)
-- **Sukaina** - [GitHub Profile](https://github.com/sukainailham)
-- **Rejekki Manalu** - [GitHub Profile](https://github.com/JackMatthew112233)
+- **220907501039_Ameliah Utary** - [GitHub Profile](https://github.com/ameliahutary)
+- **220907502073_Fakhita Nursyifa** - [GitHub Profile](https://syifaita)
+- **220907501043_Sukaina** - [GitHub Profile](https://github.com/sukainailham)
+- **220907501042_Rejekki Manalu** - [GitHub Profile](https://github.com/JackMatthew112233)
 
 ## Dokumentasi
 
