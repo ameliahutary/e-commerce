@@ -14,6 +14,7 @@ Miawmiaw Store is a paradise for every adorable cat around the world. We’re mo
 Berikut adalah dokumentasi proyek yang kami buat:
 
 ![Screenshot](screenshot/admin.png)
+![Screenshot](screenshot/category%20products.png)
 ![Screenshot](screenshot/backend.png)
 ![Screenshot](screenshot/database.png)
 ![Screenshot](screenshot/login.png)
